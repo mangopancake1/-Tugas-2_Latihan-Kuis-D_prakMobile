@@ -3,7 +3,7 @@ part of 'pages.dart';
 class OrderPage extends StatefulWidget {
   final Map<String, dynamic> menuItem;
 
-  const OrderPage({Key? key, required this.menuItem}) : super(key: key);
+  const OrderPage({super.key, required this.menuItem});
 
   @override
   _OrderPageState createState() => _OrderPageState();
